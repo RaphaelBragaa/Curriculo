@@ -1,21 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Curriculo</title>
 </head>
+
 <body>
-    <div class="container">
-     <div>
-        <img src="./images/1674595873291.jpg" alt="photo" class="img-fluid rounded-circle">
-        
+    <div class="top-container">
+        <img src="./images/1674595873291.jpg" alt="photo" class="screen img-fluid rounded-circle shadow p-3 rounded">
+        <div class="text-box">
+            <h2 class="name">Raphael Braga</h2>
+            <h3>Aracaju, Sergipe</h3>
+            <h3>rbragamouraa@gmail.com</h3>
+            <h3><strong>(79)</strong> 99943-8484</h3>
         </div>
     </div>
-   
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <div class="content-container">
+        <h2 class="topic">Habilidades</h2 <span class="content-container">
+        <h3 class="description strong">Linguagens</h3>
+        <h3 class="description">Typescript, Javascript, Java</h3>
+        </span>
+        <span class="content-container">
+            <h3 class="description strong">Front End</h3>
+            <h3 class="description">Html, CSS, ReactJS, Styled Components, NGINX, Cypress, NextJS, ChakraUI</h3>
+        </span>
+        <span class="content-container">
+            <h3 class="description strong">Ferramentas</h3>
+            <h3 class="description">NodeJs, Express, MongoDb, PostgreSQl, Redis, Prisma ORM, Jest, JWT, Spring Boot</h3>
+        </span>
+
+
+    </div>
+    <div class="content-container">
+        <h2 class="topic">Projetos</h2>
+        <span class="content-container">
+            <h3 class="description strong">TrackIt | Software de Acompanhamento de Hábitos</h3>
+            <h3 class="description">Responsabilidade: Desenvolvedor</h3>
+            <h3 class="description">Tecnologias utilizadas: React.js, Styled Components.</h3>
+            <h3 class="description">•Desenvolvi telas de autenticação e persistência de dados utilizando local storage e
+                contextAPI.</h3>
+            <h3 class="description"> •Criei uma camada service especialidade na comunicação com a Api gerenciando com
+                envio e recebimento de dados.</h3>
+            <h3 class="description">•Utilizei bibliotecas externas para a implementação de funcionalidades mais robustas
+                como calendário e animações.</h3>
+            <h3 class="description">•Utilizei técnicas avançadas de construção de componentes reaproveitando estruturas
+                e utilizando props children.</h3>
+        </span>
+        <h3 class="description strong">Deploy:<a href="https://projeto10-trackiit.vercel.app/" target="_blank">Vercel</a></h3>
+        <h3 class="description strong">Repositório:<a href="https://github.com/RaphaelBragaa/Trackit" target="_blank">Github</a></h3>
+    <span class="content-container">
+        <h3 class="description strong">Linkr | Rede social de compartilhamento de links</h3>
+        <h3 class="description">Responsabilidade: Desenvolvedor</h3>
+        <h3 class="description">Tecnologias utilizadas: React , Styled Components, Postgresql, Express, Node.js</h3>
+        <h3 class="description">•Desenvolvi rotas com parầmetros para a seleção do perfil indicado de acordo a escolha do usuário utilizando useParams
+            no React e endpoints da API.</h3>
+        <h3 class="description"> •Implementei sistema de likes em posts de usuários utilizando mudança de estado do React com o useState e onClick.</h3>
+        <h3 class="description">•Utilizei bibliotecas externas para a implementação de funcionalidades mais robustas
+            como calendário e animações.</h3>
+        <h3 class="description">•Inseri a funcionalidade de deslogamento do usuário ao remover seu token de autorização do local storage e redirecionálo automaticamente das rotas autenticadas da aplicação para a tela de login</h3>
+    </span>
+    <h3 class="description strong">Deploy:<a href="http://linkr-front-ashy.vercel.app/" target="_blank">Vercel</a></h3>
+    <h3 class="description strong">Repositório:<a href="https://github.com/gusalveess/Linkr-Back" target="_blank">Github</a></h3>
+</div>
+<div class="content-container">
+    <h2 class="topic">Educação</h2>
+    <span class="content-container">
+        <h3 class="description strong">Uninassau | Análise e Desenvolvimento de Sistemas </h3>
+        <h3 class="description">Início e Término: 07/2023 – 06/2025</h3>
+        <h3 class="description">•Formação intensiva de +2000h</h3>
+        <h3 class="description">•Análise, Modelagem e Desenvolvimento de Software
+        </h3>
+        <h3 class="description">•Desenvolvimento para Dispositivos Móveis
+        </h3>
+        <h3 class="description">•Gerenciamento de Projetos</h3>
+        <h3 class="description">•Machine Learning</h3>
+        <h3 class="description">•Lógica de Programação
+        </h3>
+    </span>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
