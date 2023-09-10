@@ -8,20 +8,30 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Curriculo</title>
 </head>
 
 <body>
-    <div class="top-container">
+    <div class="container rounded-bottom headers" id="top" >
+     <div class="top-container" data-aos="fade-up"  data-aos-duration="4000"
+     >
         <img src="./images/1674595873291.jpg" alt="photo" class="screen img-fluid rounded-circle shadow p-3 rounded">
         <div class="text-box">
             <h2 class="name">Raphael Braga</h2>
             <h3>Aracaju, Sergipe</h3>
             <h3>rbragamouraa@gmail.com</h3>
-            <h3><strong>(79)</strong> 99943-8484</h3>
+            <h3>(79) 99943-8484</h3>
+            <div class="icon-box">
+                <a href="https://www.linkedin.com/in/raphael-bragaa/" target="_blank">
+                    <ion-icon name="logo-linkedin" size="large">     
+                    </ion-icon></a>
+                <a href="https://github.com/RaphaelBragaa" target="_blank" ><ion-icon name="logo-github" size="large"></ion-icon></a>
+                <a href="https://raphael-mu.vercel.app" target="_blank"><ion-icon name="globe-outline" size="large"></ion-icon></a>
+            </div>
         </div>
     </div>
-    <div class="content-container">
+    <div class="content-container" data-aos="fade-right" data-aos-duration="4000">
         <h2 class="topic">Habilidades</h2 <span class="content-container">
         <h3 class="description strong">Linguagens</h3>
         <h3 class="description">Typescript, Javascript, Java</h3>
@@ -34,10 +44,8 @@
             <h3 class="description strong">Ferramentas</h3>
             <h3 class="description">NodeJs, Express, MongoDb, PostgreSQl, Redis, Prisma ORM, Jest, JWT, Spring Boot</h3>
         </span>
-
-
     </div>
-    <div class="content-container">
+    <div class="content-container" data-aos="fade-right" data-aos-duration="4000">
         <h2 class="topic">Projetos</h2>
         <span class="content-container">
             <h3 class="description strong">TrackIt | Software de Acompanhamento de Hábitos</h3>
@@ -68,7 +76,7 @@
     <h3 class="description strong">Deploy:<a href="http://linkr-front-ashy.vercel.app/" target="_blank">Vercel</a></h3>
     <h3 class="description strong">Repositório:<a href="https://github.com/gusalveess/Linkr-Back" target="_blank">Github</a></h3>
 </div>
-<div class="content-container">
+<div class="content-container" data-aos="fade-right" data-aos-duration="4000">
     <h2 class="topic">Educação</h2>
     <span class="content-container">
         <h3 class="description strong">Uninassau | Análise e Desenvolvimento de Sistemas </h3>
@@ -83,7 +91,9 @@
         <h3 class="description">•Lógica de Programação
         </h3>
     </span>
+    <footer><a href="#top"><ion-icon size="large" name="chevron-up-circle-outline"></ion-icon></a></ion-icon></footer>
 </div>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -94,6 +104,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
